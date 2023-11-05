@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de filme</title>
+    <link rel="shortcut icon" href="icons-1.png" type="image/x-icon">
+</head>
+<body>
+    <form> 
+    <h1>watch TV</h1><hr>
+    <P> <a href="tela-principal.html">Tela principal</a> <br>
+    <a href="tela-do-login.html">Sair</a></P>
+    <fieldset>
+        <legend>Cadastro do filme</legend>
+       <p><h4>Titulo</h4>   
+        <input type="text"></p> 
+       <label> Gênero de filmes: </label><select name="Genero" id="quantidade">
+           <option value="Terror"> Terror</option>
+            <option value="Suspense">Suspense</option>
+            <option value="Drama">Drama</option>
+            <option value="Romance">Romance</option>
+            <option value="Aventura">Aventura</option>
+   
+        </select>
+       <p><h4>Prêmios:</h4>
+        Melhor Filme <input type="checkbox" id="MelhorFilme" value="eggs"><br>
+       Melhor Elenco <input type="checkbox" id="MelhorElenco" value="eggs">  <br>
+        Melhor Roteiro  <input type="checkbox" id="MelhorRoteiro" value="eggs"><br>
+        Melhor Perssonagem <input type="checkbox" id="MelhorPerssonagem" value="eggs"></p> 
+      <p>Descrição:</p>
+        <textarea name="text" id="Text" cols="30" rows="10"></textarea>
+    <br>
+       <p><button onclick=""><a href="cadastro.html">Cadastrar</a></button></p>
+       <input type="reset"/>
+    <!-- Reset não esta fucionado -->
+    </fieldset>
+</form>
+    
+</body>
+</html>
